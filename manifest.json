@@ -1,5 +1,5 @@
 {
-  "name": "Static Transport Views",
+  "name": "StaticTransportViews",
   "version_number": "0.1.0",
   "website_url": "https://github.com/wheezydastarfish/staticTransportViews",
   "description": "Remove the view resets when closing transport window",
