@@ -1,21 +1,27 @@
+using HarmonyLib;
 using System.Collections.Generic;
 using System.Linq;
-using Colossal.UI;
-using Game.SceneFlow;
-using Game.Audio;
-using Game.UI.Menu;
-using HarmonyLib;
 using System.Reflection.Emit;
+using Colossal.UI;
 using Game;
+using Game.UI.InGame;
 
 namespace StaticTransportViews.Patches {
 
-    [HarmonyPatch(typeof(MenuUISystem), "IsEditorEnabled")]
-    class MenuUISystem_IsEditorEnabledPatch
+    [HarmonyPatch(typeof(TransportationOverviewUISystem), "ResetLinesVisibility")]
+    class TransportationOverviewUISystem_NoResetPatch
     {
-        static bool Prefix(ref bool __result)
+        static bool Prefix()
         {
-            __result = true;
+            return false; // Ignore original function
+        }
+    }
+
+    [HarmonyPatch(typeof(TransportationOverviewUISystem), "ResetLinesVisibility")]
+    class TransportationUISystem_NoResetPatch
+    {
+        static bool Prefix()
+        {
             return false; // Ignore original function
         }
     }
