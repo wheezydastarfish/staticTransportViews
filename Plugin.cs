@@ -13,7 +13,7 @@ using UnityEngine;
     using BepInEx.Unity.Mono;
 #endif
 
-namespace MyCoolMod
+namespace StaticTransportViews
 {
     [BepInPlugin(MyPluginInfo.PLUGIN_GUID, MyPluginInfo.PLUGIN_NAME, MyPluginInfo.PLUGIN_VERSION)]
     public class Plugin : BaseUnityPlugin
@@ -32,10 +32,5 @@ namespace MyCoolMod
             }
         }
 
-        // Keep in mind, Unity UI is immediate mode, so OnGUI is called multiple times per frame
-        // https://docs.unity3d.com/ScriptReference/MonoBehaviour.OnGUI.html
-        private void OnGUI() {
-            GUI.Label(new Rect(10, 10, 300, 20), $"Plugin {MyPluginInfo.PLUGIN_GUID} is loaded!");
-        }
     }
 }

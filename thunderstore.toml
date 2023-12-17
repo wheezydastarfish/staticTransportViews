@@ -5,7 +5,7 @@ schemaVersion = "0.0.1"
 namespace = "Starfish"
 name = "StaticTransportViews"
 versionNumber = "0.1.0"
-description = "Remove the view reset when closing transport window"
+description = "Remove the view resets when closing transport window"
 websiteUrl = "https://thunderstore.io"
 containsNsfwContent = false
 
