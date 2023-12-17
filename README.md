@@ -24,7 +24,7 @@ Adding new transport lines will make them visible by default, but once you mark 
 # Installation
 
 ## Thunderstore
-If you would like to use this mod via Thunderstore, you can download the mod or include it in your packs from [Static Transport Views](https://thunderstore.io/c/cities-skylines-ii/).
+If you would like to use this mod via Thunderstore, you can download the mod or include it in your packs from [Static Transport Views](https://thunderstore.io/c/cities-skylines-ii/p/WheezyDaStarfish/StaticTransportViews/).
 
 ##  Manual
 1. Install BepInEx v5.4.21 or BepInEx 6
