@@ -6,7 +6,7 @@ namespace = "Starfish"
 name = "StaticTransportViews"
 versionNumber = "0.1.0"
 description = "Remove the view resets when closing transport window"
-websiteUrl = "https://thunderstore.io"
+websiteUrl = "https://github.com/wheezydastarfish/staticTransportViews"
 containsNsfwContent = false
 
 [package.dependencies]

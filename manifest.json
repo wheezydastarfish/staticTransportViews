@@ -1,0 +1,9 @@
+{
+  "name": "Static Transport Views",
+  "version_number": "0.1.0",
+  "website_url": "https://github.com/wheezydastarfish/staticTransportViews",
+  "description": "Remove the view resets when closing transport window",
+  "dependencies": [
+    "BepInEx-BepInExPack-5.4.2100"
+  ]
+}

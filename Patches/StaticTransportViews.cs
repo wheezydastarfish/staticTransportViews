@@ -17,12 +17,4 @@ namespace StaticTransportViews.Patches {
         }
     }
 
-    [HarmonyPatch(typeof(TransportationOverviewUISystem), "ResetLinesVisibility")]
-    class TransportationUISystem_NoResetPatch
-    {
-        static bool Prefix()
-        {
-            return false; // Ignore original function
-        }
-    }
 }
